@@ -10,6 +10,7 @@ public class p1 {
         WebDriverManager.chromedriver().setup();
         ChromeDriver driver= new ChromeDriver();
         driver.get("http://google.com");
+        System.out.println("fresh");
             driver.close();
     }
 }
